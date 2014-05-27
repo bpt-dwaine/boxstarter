@@ -1,0 +1,16 @@
+cinst GoogleChrome
+cinst git.install
+cinst dropbox
+cinst notepadplusplus.install
+cinst autohotkey
+cinst flashplayeractivex
+cinst flashplayerplugin
+cinst sysinternals
+cinst putty
+cinst fiddler
+cinst filezilla
+cinst wireshark
+cinst vmwarevsphereclient
+cinst crystaldiskmark
+cinst beyondcompare
+cinst gimp

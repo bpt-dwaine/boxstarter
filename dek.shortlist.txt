@@ -1,0 +1,15 @@
+# Created 05/27/14
+Enable-RemoteDesktop
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableListDesktopAppsFirst
+Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
+Update-ExecutionPolicy -policy Unrestricted
+
+#apps 
+cinst GoogleChrome
+cinst git.install
+cinst dropbox
+cinst notepadplusplus.install
+cinst autohotkey
+cinst putty
+cinst crystaldiskmark
