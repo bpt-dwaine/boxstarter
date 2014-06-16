@@ -14,3 +14,4 @@ cinst vmwarevsphereclient
 cinst crystaldiskmark
 cinst beyondcompare
 cinst gimp
+cinst ultravnc
