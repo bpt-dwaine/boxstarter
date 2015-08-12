@@ -4,6 +4,7 @@ Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -Ena
 Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
 
 Enable-RemoteDesktop
+Enable-PSRemoting -Force
 Disable-InternetExplorerESC
 Disable-UAC
 Enable-MicrosoftUpdate
