@@ -16,7 +16,7 @@ Update-ExecutionPolicy -policy Unrestricted
 cinst GoogleChrome
 #cinst git.install
 cinst dropbox
-cinst notepadplusplus.install
+cinst notepadplusplus.install /PinnedToTaskbar:true
 cinst autohotkey
 cinst putty
 #cinst crystaldiskmark
