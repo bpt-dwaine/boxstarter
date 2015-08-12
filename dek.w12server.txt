@@ -1,8 +1,14 @@
 # Created 05/27/14
 Set-ExplorerOptions -ShowHiddenFilesFoldersDrives -ShowProtectedOSFiles -ShowFileExtensions
-Enable-RemoteDesktop
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
+
+Enable-RemoteDesktop
+Disable-InternetExplorerESC
+Disable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate
+
 Update-ExecutionPolicy -policy Unrestricted
 
 #apps 
@@ -16,3 +22,8 @@ cinst putty
 #cinst vmwarevsphereclient
 cinst beyondcompare
 cinst fiddler4
+
+cinst IIS-WebServerRole -source windowsfeatures
+
+#add
+#BGinfo
