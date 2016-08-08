@@ -1,1 +1,6 @@
-cinst winrar
+cinst notepadplusplus.install
+cinst autohotkey
+cinst putty
+#cinst crystaldiskmark
+#cinst vmwarevsphereclient
+cinst beyondcompare
